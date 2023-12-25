@@ -1,5 +1,5 @@
 import express from 'express';
-import config from '../config';
+import config from './config';
 import morgan from 'morgan';
 import cors from 'cors';
 

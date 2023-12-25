@@ -1,5 +1,5 @@
 import node_email from "nodemailer"
-import config from "../../config";
+import config from "../config";
 
 export default class SendMessage {
    async sendMail(to, subject, message) {
